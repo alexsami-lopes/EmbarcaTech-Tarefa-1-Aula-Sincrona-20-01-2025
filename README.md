@@ -1,2 +1,0 @@
-# EmbarcaTech
-Atividades da EmbarcaTech
