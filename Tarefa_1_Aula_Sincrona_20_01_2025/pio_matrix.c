@@ -255,9 +255,8 @@ int main()
 
       switch (tecla) {
         case 'A':
-
-            exibir_animacao_alexsami(pio, sm);
-            sleep_ms(1000);
+            apagar_matriz_leds(pio, sm);
+            
             break;
         case 'B':
             //desenho_pio(desenho2, valor_led, pio, sm, r, g, b);
@@ -270,7 +269,7 @@ int main()
 
             break;
         case '#':
-            apagar_matriz_leds(pio, sm);
+            
             break;
         case '*':
 
@@ -297,7 +296,8 @@ int main()
 
             break;
         case '7':
-
+            exibir_animacao_alexsami(pio, sm);
+            sleep_ms(1000);
             break;
         case '8':
 
@@ -318,3 +318,4 @@ int main()
   }
   return 0;
 }
+
